@@ -1,8 +1,11 @@
 import React from 'react';
+import LoginPage from './LoginPageComponent';
 
 function MainComponent(props) {
     return(
-        <div></div>
+        <div className="container-fluid">
+            <LoginPage />
+        </div>
     );
 }
 
